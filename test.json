@@ -1,0 +1,118 @@
+{
+  "allowCustomStyle": true,
+  "fontTypes": {
+    "default": {
+      "fontFamily": "'SF UI Text', sans-serif",
+      "fontSizes": {
+        "small": 14,
+        "default": 18,
+        "medium": 21,
+        "large": 24,
+        "extraLarge": 28
+      },
+      "fontWeights": {
+        "lighter": 200,
+        "default": 400,
+        "bolder": 600
+      }
+    },
+    "title": {
+      "fontFamily": "'Lora', serif",
+      "fontSizes": {
+        "small": 12,
+        "default": 14,
+        "medium": 17,
+        "large": 72,
+        "extraLarge": 26
+      },
+      "fontWeights": {
+        "lighter": 200,
+        "default": 400,
+        "bolder": 500
+      }
+    }
+  },
+  "separator": {
+    "lineThickness": 1,
+    "lineColor": "#E8E8E8"
+  },
+  "spacing": {
+    "small": 3,
+    "default": 8,
+    "medium": 20,
+    "large": 30,
+    "extraLarge": 40,
+    "padding": 16
+  },
+  "containerStyles": {
+    "default": {
+      "backgroundColor": "#ffffff",
+      "foregroundColors": {
+        "default": {
+          "default": "#404144",
+          "subtle": "#767676"
+        },
+        "accent": {
+          "default": "#63666a",
+          "subtle": "#0063B1"
+        },
+        "attention": {
+          "default": "#FF0000",
+          "subtle": "#DDFF0000"
+        },
+        "good": {
+          "default": "#54a254",
+          "subtle": "#DD54a254"
+        },
+        "warning": {
+          "default": "#c3ab23",
+          "subtle": "#DDc3ab23"
+        },
+        "dark": {
+          "default": "#0099D8",
+          "subtle": "#005500"
+        },
+        "light": {
+          "default": "#123456",
+          "subtle": "#005500"
+        }
+      }
+    },
+    "emphasis": {
+      "backgroundColor": "#ffffff",
+      "foregroundColors": {
+        "default": {
+          "default": "#000000",
+          "subtle": "#767676"
+        },
+        "accent": {
+          "default": "#2E89FC",
+          "subtle": "#882E89FC"
+        },
+        "attention": {
+          "default": "#FF0000",
+          "subtle": "#DDFF0000"
+        },
+        "good": {
+          "default": "#54a254",
+          "subtle": "#DD54a254"
+        },
+        "warning": {
+          "default": "#c3ab23",
+          "subtle": "#DDc3ab23"
+        }
+      }
+    }
+  },
+  "actions": {
+    "maxActions": 10,
+    "buttonSpacing": 8,
+    "style": "ActionStyle",
+    "showCard": {
+      "actionMode": "inline",
+      "inlineTopMargin": 8
+    },
+    "actionsOrientation": "vertical",
+    "actionAlignment": "stretch"
+  }
+}
